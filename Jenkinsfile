@@ -7,12 +7,6 @@ pipeline {
       }
     }
 
-    stage('Log') {
-      steps {
-        sh 'ls -la'
-      }
-    }
-
     stage('Testing') {
       steps {
         echo 'Checking '
