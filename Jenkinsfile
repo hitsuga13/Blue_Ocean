@@ -13,12 +13,5 @@ pipeline {
       }
     }
 
-    stage('Log') {
-      steps {
-        sh '''ls-la
-'''
-      }
-    }
-
   }
 }
