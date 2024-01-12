@@ -15,6 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
+        sh 'dir("$buildDir")'
         echo 'Building'
         sh 'sudo npm run build'
       }
