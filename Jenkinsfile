@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('Testing') {
+    stage('New Log') {
       steps {
-        echo 'Checking '
+        sh 'ls -a'
       }
     }
 
