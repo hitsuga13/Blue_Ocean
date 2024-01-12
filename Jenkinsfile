@@ -13,9 +13,10 @@ pipeline {
       }
     }
 
-    stage('Pull?') {
+    stage('Build') {
       steps {
-        echo 'How to pull?'
+        echo 'Building'
+        sh 'sudo npm run build'
       }
     }
 
