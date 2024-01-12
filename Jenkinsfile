@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Pull?') {
+      steps {
+        echo 'How to pull?'
+      }
+    }
+
   }
 }
